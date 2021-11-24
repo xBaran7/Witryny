@@ -1,0 +1,143 @@
+:root {
+    --tlo-strony: #333;
+    --font-color: #FFF;
+}
+
+
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  background: var(--tlo-strony);
+  color: var(--font-color);
+    padding: 0.5em;
+}
+
+.wrapper {
+    display: grid;
+    
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 2fr;
+    grid-template-areas: 
+    'box1 box1 box1 box1 box1 box1 box1'
+    'box2 box2 box2 box2 box2 box2 box2'
+    'box3 box3 box3 box3 box3 box3 box3'
+    'box4 box5 box5 box5 box6 box6 box7'
+    'box8 box8 box8 box8 box8 box8 box7'
+    'box9 box9 box9 box10 box10 box10 box7'
+    'box12 box12 box12 box12 box12 box12 box12'
+}
+
+
+.box1 {
+    grid-area: box1;
+    border: 1px solid black;
+    height: calc(100vh - 95vh);
+}
+
+.box2 {
+    grid-area: box2;
+    border: 1px solid black;
+}
+
+.box3 {
+    grid-area: box3;
+    border: 1px solid black;
+}
+
+.box4 {
+    grid-area: box4;
+    border: 1px solid black;
+}
+.box5 {
+    grid-area: box5;
+    border: 1px solid black;
+}
+.box6 {
+    grid-area: box6;
+    border: 1px solid black;
+}
+.box7 {
+    grid-area: box7;
+    border: 1px solid black;
+}
+.box8 {
+    grid-area: box8;
+    border: 1px solid black;
+}
+.box9 {
+    grid-area: box9;
+    border: 1px solid black;
+}
+.box10 {
+    grid-area: box10;
+    border: 1px solid black;
+}
+.box11 {
+    grid-area: box11;
+    border: 1px solid black;
+}
+.box12 {
+    grid-area: box12;
+    border: 1px solid black;
+}
+
+/* .info {
+    grid-area: info;
+    border: 2px solid black;
+    height: calc(100vh - 90vh);
+    padding: 1em;
+    text-align: center;
+    
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
+
+.menu {
+    grid-area: menu;
+    border: 2px solid black;
+    height: calc(100vh - 95vh);
+    margin-bottom: 1em;
+}
+
+.slider {
+    grid-area: slider;
+    border: 2px solid black;
+    height: calc(100vh - 80vh);
+    margin-bottom: 1em;
+}
+
+.text {
+    grid-area: text;
+    border: 2px solid black;
+    height: calc(100vh - 50vh);
+}
+
+.reklama {
+    grid-area: reklama;
+    border: 2px solid black;
+}
+
+.reklama2 {
+    grid-area: foto;
+    border: 2px solid black;
+    height: calc(100vh - 50vh);
+}
+
+.stopka_info {
+    grid-area: stopka_info;
+    border: 2px solid black;
+    height: calc(100vh - 90vh);
+}
+
+.stopka {
+    grid-area: stopka;
+    border: 2px solid black;
+    height: calc(100vh - 95vh);
+} */
+
